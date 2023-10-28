@@ -11,9 +11,8 @@ export default function Accordian(props) {
     }
 
     const styles = {
-        //if open is true, show content
         accordianTitle: {
-          color: open ? "#10d6f5" : "#fff"
+          color: open ? "#f5deb3" : "#fff"
         }
       };
 
@@ -30,7 +29,7 @@ export default function Accordian(props) {
         },
         to: {
           transform: open ? "rotate(180deg)" : "rotate(0deg)",
-          color: open ? "#10d6f5" : "#fff"
+          color: open ? "#f5deb3" : "#fff"
         },
         config: { duration: "120" }
       });

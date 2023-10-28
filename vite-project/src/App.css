@@ -59,7 +59,7 @@ h1 {
 }
 
 .accordian__header:hover h4 {
-    color: wheat!important;
+    color: #f5deb3!important;
 }
 
 .accordian__header:hover i {
